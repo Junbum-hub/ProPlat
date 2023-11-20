@@ -1,0 +1,60 @@
+.profile_form_input-block{
+    padding: 20px 0px 20px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    clear: left;
+}
+
+.profile_square {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    clear: left;
+    float: left;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 13px;
+}
+
+.profile_form_label{
+    width: 80px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.profile_form_input-boxIntro{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 630px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px #d5d5d5;
+}
+
+.profile_form_edit-btn{
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    float: right;
+    border: none;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+/*닉네임, 휴대폰 번호처럼 화이트 박스 안에 입력되는 값들은 flex를 끄고 margin으로 위치를 조정해준다*/
+.profile_edit_input{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 20px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 20px;
+    justify-content: initial;
+}

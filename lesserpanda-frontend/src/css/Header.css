@@ -1,0 +1,39 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 65px;
+    padding: 10px;
+    color: #000000;
+    background: #ffffff;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #CBDDFF;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;  /*균등한 거리로 정렬*/
+    align-items: center;
+    box-shadow: 0px 2px 3px #c2c2c2; /* 가로 0px로 설정하여 아래 방향으로만 그림자 추가 */
+}
+
+.header_round {
+    display: inline-block;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;  /*글자 가운데 정렬 시키기 위해 높이 설정*/
+    margin: 30px;
+    cursor : pointer;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #CBDDFF;
+    box-shadow: 0px 2px 3px #c2c2c2; /* 가로 0px로 설정하여 아래 방향으로만 그림자 추가 */
+}
+
+.header_text {
+    margin: 0px 15px;
+    cursor: pointer;
+    font-size: 13px;
+}
