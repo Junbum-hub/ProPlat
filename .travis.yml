@@ -19,7 +19,7 @@ before_install:
   - cd ./lesserpanda-backend/
   
 before_deploy:
-  - cd /home/travis/build/Junbum-hub/lesser-panda/
+  - cd /home/travis/build/Junbum-hub/ProPlat/
   - mkdir -p before-deploy # zip에 포함시킬 파일들을 담을 디렉토리 생성
   - cp scripts/*.sh before-deploy/   # 스크립트 파일 복사
   #- cp -r lesserpanda-backend/mysql-init.d before-deploy #MYSQL 초기화에 필요한 폴더 복사 
